@@ -1,0 +1,130 @@
+/* Created by 🌍🌎🌏𝐀𝐢𝐦🌍🌎🌏 */
+
+@import url('https://fonts.googleapis.com/css2?family=Rampart+One&display=swap');
+*{
+  margin:0;
+  padding:0;
+  font-family: 'Rampart One', cursive;
+}
+
+.box_1{
+  width:100%;
+  height:100vh;
+  background:#3B0055 url("https://i.postimg.cc/wjc4K26h/yes.gif");
+  display:flex;
+  align-items:center;
+ justify-content:center;
+}
+.gift{
+  width:200px;
+  height:150px;
+  background-color:#195AFF;
+  position:absolute;
+  top:40%;
+  left:50%;
+  z-index:100;
+  transform:translate(-50%,-50%);
+}
+.gift-lid{
+  width:210px;
+  height:30px;
+  background-color:#0039CB;
+  position:absolute;
+  left:-5px;
+  transition:2s transform;
+  transform-origin:left;
+}
+.ribbon-2{
+  width:70px;
+  height:70px;
+  border:10px solid #FFA804;
+  box-sizing:border-box;
+  border-radius:100px 100px 0px 100px;
+  transform:rotate(5deg);
+  z-index:-10000;
+  position:absolute;
+  top:-65px;
+  left:35px;
+  
+}
+.ribbon-3{
+  width:70px;
+  height:70px;
+  border:10px solid #FFA804;
+  box-sizing:border-box;
+  border-radius:100px 100px 100px 0px;
+  transform:rotate(5deg);
+  z-index:-10000;
+  position:absolute;
+  top:-65px;
+  left:105px;
+  
+}
+.ribbon-1{
+  width:40px;
+  height:30px;
+  box-sizing:border-box;
+  background-color:#FEC401 ; 
+  position:absolute;
+  top:0px;
+  left:85px;
+  z-index:100;
+  
+  
+}
+.ribbon-4{
+  width:35px;
+  height:150px;
+  box-sizing:border-box;
+  background-color:#FFA401; 
+  position:absolute;
+  top:0px;
+  left:82.5px;
+  z-index:;
+  
+  
+}
+.gifts{
+  width:150px;
+  height:200px;
+  position:absolute;
+  
+  left:30px;
+  background-size:100% 100%;
+  opacity:0;
+  display:none;
+  transform:scale(0.4);
+  transition:2s;
+  top:0px;
+  opacity:0;
+  animation:mymove 2s linear ;
+}
+@keyframes mymove {
+  0%{
+    opacity:0;
+  }
+  
+  49.9%{
+    opacity:0;
+    display:none;
+  }
+  50%{
+    top:-200px;
+    z-index:-1000;
+  }
+}
+h1{
+    position:absolute ;
+    top:85%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    color:white;
+    text-align:center;
+    
+}
+.subheading{
+  text-align: center;
+  font-weight: 500px;
+  /*width: 100%;*/
+
+}

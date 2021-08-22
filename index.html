@@ -1,0 +1,75 @@
+
+<!--
+Happy Raksha bandhan to my brothers and cute sisters-->
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css" type="text/css" media="all" />
+    <title>Happy Raksha bandhan </title>
+</head>
+
+<body>
+<div class="box_1">
+ 
+  <div onclick="open_g()" class="gift">
+    <div class="ribbon-4"></div>
+
+    <div id="open_gift" class="gift-lid">
+       <div class="ribbon-1"></div>
+     <div class="ribbon-2"></div>
+     <div class="ribbon-3"></div>
+    </div>
+     <img src="" id="gifts" class="gifts">
+  </div>
+ 
+</div>
+
+ <h1>Happy Raksha Bandhan</h1>
+ <h2 class="subheading">Created By Vikas Sharama </h2>
+
+<script type="text/javascript" charset="utf-8">
+  var gifts=["https://i.postimg.cc/8P6JP7wt/Daco-4907786.png",
+  
+  "https://i.postimg.cc/sgPM7bkW/Daco-5600753.png",
+  
+  "https://i.postimg.cc/6qM61n8w/teddy-bear-PNG94.png"
+  
+  ,"https://i.postimg.cc/nMbLQ1TT/kindpng-2810878.png",
+  
+  "https://i.postimg.cc/h47ThZtL/Birthday-Cake-PNG-Clip-Art-Image-876450906.png",
+  
+  "https://i.postimg.cc/Vk81BKGM/kisspng-rail-transport-hamilton-watch-company-new-hamilton-hamilton-watch-black-watches-female-form.png", 
+  
+  "https://i.postimg.cc/8kmTzpcf/laptop-notebook-18.png ",
+   "https://i.postimg.cc/P5rYxQWb/cadbury-world-white-chocolate-cadbury-dairy-milk-chocolate-7ca2539a17147229e25a53df9e1fd92c.png"];
+  var random_no=Math.floor(Math.random()*8);
+  random_gift=gifts[random_no]
+  
+  document.getElementById('gifts').src=random_gift;
+ function open_g(){
+   document.getElementById('open_gift').style.transform='rotate(-180deg) '
+   document.getElementById('gifts').style.opacity='1';
+   document.getElementById('gifts').style.display='block';
+   document.getElementById('gifts').style.display='block';
+   document.getElementById('gifts').style.transform='scale(1)';
+   
+ } </script>
+ <audio controls style="display:none;" loop id="audio">
+     <source id="audio-source"
+     src="https://dailyringtone.com/download/oh-behna-meri-tu-brother-ringtone/mp3"> </audio>
+     
+ <script>
+ window.addEventListener("mouseover",play);
+window.addEventListener("click",play);
+function play(){ document.getElementById("audio").play()
+}
+     
+</script>
+<script type="text/javascript" src="main.js"></script>
+</body>
+
+</html>
